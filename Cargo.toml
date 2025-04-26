@@ -1,0 +1,10 @@
+[package]
+name = "dynamic"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["library"]
+
+[dependencies]
+library = { path = "library" }
